@@ -20,7 +20,7 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-083b3f53cbda7e5a4
-      InstanceType: t3.micro
+      InstanceType: t3.medium
       KeyName: croma-aish-4
       SecurityGroupIds:
         - !GetAtt MySecurityGroup.GroupId # Associates the Security Group
